@@ -1,67 +1,66 @@
-.product-card {
+.advice-card {
     border-radius: 12px;
     padding: 20px;
     min-height: 480px;
-    width: 286px;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.product-card--first {
-    background: #cccccc url(../../images/card_1.png) no-repeat;
+.advice-card--first {
+    background: #cccccc url(../../images/card_1.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--second {
-    background: #cccccc url(../../images/card_2.png) no-repeat;
+.advice-card--second {
+    background: #cccccc url(../../images/card_2.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--third {
-    background: #cccccc url(../../images/card_3.png) no-repeat;
+.advice-card--third {
+    background: #cccccc url(../../images/card_3.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--fourth {
-    background: #cccccc url(../../images/card_4.png) no-repeat;
+.advice-card--fourth {
+    background: #cccccc url(../../images/card_4.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--fifth {
-    background: #cccccc url(../../images/card_5.png) no-repeat;
+.advice-card--fifth {
+    background: #cccccc url(../../images/card_5.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--sixth {
-    background: #cccccc url(../../images/card_6.png) no-repeat;
+.advice-card--sixth {
+    background: #cccccc url(../../images/card_6.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--seventh {
-    background: #cccccc url(../../images/card_7.png) no-repeat;
+.advice-card--seventh {
+    background: #cccccc url(../../images/card_7.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card--eighth {
-    background: #cccccc url(../../images/card_8.png) no-repeat;
+.advice-card--eighth {
+    background: #cccccc url(../../images/card_8.jpg) no-repeat;
     background-size: cover;
 }
 
-.product-card__heading {
+.advice-card__heading {
     display: flex;
     gap: 8px;
     align-items: center;
 }
 
-.product-card__img {
+.advice-card__img {
     height: 40px;
     width: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.product-card__class {
+.advice-card__class {
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
@@ -69,13 +68,13 @@
 
 }
 
-.product-card__info {
+.advice-card__info {
     display: flex;
     flex-direction: column;
     margin-top: auto;
 }
 
-.product-card__info-name {
+.advice-card__info-name {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -83,7 +82,7 @@
     margin: auto 0 20px;
 }
 
-.product-card__info-details {
+.advice-card__info-details {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
